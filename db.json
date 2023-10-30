@@ -1,0 +1,28 @@
+{
+    "consultants": [
+      {
+        "id": 1,
+        "name": "Harvey Savalla",
+        "description": "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.",
+        "image_url": "https://i.ibb.co/wQ4G0w1/flatiron-brew.png",
+        "phone":"0712345678",
+        "email": "hsavalla@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "Mike Rajula",
+        "description": "Our Unleash the Yeast series was an epic experiment into the differences in aroma and flavour provided by switching up your yeast. We brewed up a wort with a light caramel note and some toasty biscuit flavour, and hopped it with Amarillo and Centennial for a citrusy bitterness. Everything else is down to the yeast. Pilsner yeast ferments with no fruity esters or spicy phenols, although it can add a hint of butterscotch.",
+        "image_url": "https://images.punkapi.com/v2/4.png",
+        "phone": "0787654321",
+        "email": "mrajula@gmail.com"
+      },
+      {
+        "id": 3,
+        "name": "Lois Langat",
+        "description": "We let it sit out in the open air for 12 hours for perfect flatness and add brown sauce for more brownness.",
+        "image_url": "https://images.punkapi.com/v2/5.png",
+        "phone": "0712719813",
+        "email": "llangat"
+      }
+        ]
+      }
