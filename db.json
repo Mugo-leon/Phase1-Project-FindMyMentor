@@ -1,28 +1,25 @@
 {
-    "consultants": [
-      {
-        "id": 1,
-        "name": "Harvey Savalla",
-        "description": ".",
-        "image_url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fbcfc45dd-9b15-46e9-9a1b-cd204c41baf8%2Fsmart%2Fwidth%2F386%2Fheight%2F259&tbnid=UNx0jFjvf24C0M&vet=12ahUKEwiCi_GQuJ6CAxUmRqQEHfm-CA0QMygDegQIARBx..i&imgrefurl=https%3A%2F%2Fsuits.fandom.com%2Fwiki%2FHarvey_Specter&docid=swnSGhQKALl0oM&w=386&h=259&q=harvey%20specter&client=ubuntu-sn&ved=2ahUKEwiCi_GQuJ6CAxUmRqQEHfm-CA0QMygDegQIARBx",
-        "phone":"0712345678",
-        "email": "hsavalla@gmail.com"
-      },
-      {
-        "id": 2,
-        "name": "Mike Rajula",
-        "description": ".",
-        "image_url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fwhumpapedia%2Fimages%2Fc%2Fc4%2FMike_Ross.jpg%2Frevision%2Flatest%2Fthumbnail%2Fwidth%2F360%2Fheight%2F360%3Fcb%3D20210313055040&tbnid=PKLx586fEucQPM&vet=12ahUKEwjsyZKuxJ6CAxXHmScCHR3wAYkQMygEegQIARBx..i&imgrefurl=https%3A%2F%2Fwhumpapedia.fandom.com%2Fwiki%2FMike_Ross&docid=BIYddqoa7XBfmM&w=256&h=360&q=mike%20ross&client=ubuntu-sn&ved=2ahUKEwjsyZKuxJ6CAxXHmScCHR3wAYkQMygEegQIARBx",
-        "phone": "0787654321",
-        "email": "mrajula@gmail.com"
-      },
-      {
-        "id": 3,
-        "name": "Louis Langat",
-        "description": ".",
-        "image_url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.hindustantimes.com%2Frf%2Fimage_size_640x362%2FHT%2Fp2%2F2016%2F08%2F06%2FPictures%2Fsuits-season-5_1da213b4-5bd5-11e6-8ec9-11a86e94b7e9.JPG&tbnid=ENJ3C5Ac5hcQ0M&vet=12ahUKEwicrInCxJ6CAxUitCcCHf4FBHcQMygNegUIARCHAQ..i&imgrefurl=https%3A%2F%2Fwww.hindustantimes.com%2Fbrunch%2Flouis-journey-in-suits-doesn-t-even-come-close-to-mine-rick-hoffman%2Fstory-HpNconwU4eQWwM2BuzkhMM.html&docid=ksZzvS4a6mgkCM&w=640&h=480&q=louis%20litt&client=ubuntu-sn&ved=2ahUKEwicrInCxJ6CAxUitCcCHf4FBHcQMygNegUIARCHAQ",
-        "phone": "0712719813",
-        "email": "llangat"
-      }
-        ]
-      }
+  "consultants": [
+    {
+      "id": 1,
+      "challenge": "I struggle with marketing",
+      "description": "Meet Harvey Savalla. He's good at marketing.",
+      "image_url": "https://res.cloudinary.com/dswjeyq4u/image/upload/v1698773170/Harvey_bmwslf.jpg",
+      "reviews": []
+    },
+    {
+      "id": 2,
+      "challenge": "I struggle with managing money",
+      "description": "Meet Louis Langat. He's good at finance.",
+      "image_url": "",
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "challenge": "I struggle with managing employees",
+      "description": "Meet Mike Rajula. He's a HR guru",
+      "image_url": "",
+      "reviews": []
+    }
+  ]
+}

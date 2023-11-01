@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Find My Mentor</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script defer type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>What challenges are you facing in your business?</h1>
+      <nav>
+        <ul id="challenge-list"></ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="consultant-details">
+        <h2>You have selected the challenge:</h2>
+        <h2 id="consultant-challenge"></h2>
+        <h2 id="mentor-header">Based on your challenges, your Mentor is.....(drum roll)</h2>
+        <img
+          id="consultant-image"
+          alt="Consultant Image Goes Here"
+          src="images/placeholder.png"
+        />
+        <p>
+          <em id="consultant-description"></em>
+        </p>
+
+        <h3>We'd Love your Feedback!</h3>
+        <ul id="review-list"></ul>
+        <form id="review-form">
+          <label for="review"></label>
+          <textarea id="review"></textarea>
+          <button type="submit">How were your sessions</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
