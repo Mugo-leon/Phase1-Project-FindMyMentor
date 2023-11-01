@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const baseUrl = "https://my-json-server.typicode.com/Mugo-leon/Phase1-Project-FindMyMentor";
+  const baseUrl = "https://my-json-server.typicode.com//Mugo-leon/Phase1-Project-FindMyMentor";
   console.log("API base URL:", baseUrl);
 
   const mentorHeader = document.getElementById("mentor-header");
