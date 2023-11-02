@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const consultantImage = document.getElementById("consultant-image");
 
   consultantChallenge.textContent = "Please select a challenge";
-  consultantDescription.textContent = "Select a challenge to view consultant details";
+  consultantDescription.textContent = "Select a challenge to view our recommended consultant";
   consultantImage.src = "images/placeholder.png";
   
   DisplayAllConsultants();

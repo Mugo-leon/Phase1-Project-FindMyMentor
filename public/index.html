@@ -4,10 +4,10 @@
     <title>Find My Mentor</title>
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Donegal+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Suwannaphum&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <head>
-      <link rel="icon" href="https://res.cloudinary.com/dswjeyq4u/image/upload/v1698941359/favicon_dn83fr.png" type="image/x-icon">
-      <link rel="icon" href="https://res.cloudinary.com/dswjeyq4u/image/upload/v1698941359/favicon_dn83fr.png" type="image/png">
+    <link rel="icon" href="https://res.cloudinary.com/dswjeyq4u/image/upload/v1698941359/favicon_dn83fr.png" type="image/x-icon">
+    <link rel="icon" href="https://res.cloudinary.com/dswjeyq4u/image/upload/v1698941359/favicon_dn83fr.png" type="image/png">
     </head>
     <script defer type="text/javascript" src="index.js"></script>
   </head>
@@ -15,15 +15,15 @@
     <header>
       <h1 id="welcome-header">Welcome to Find My Mentor</h1>
       <p class="info-paragraph">Kudos to you for taking the first step to find the strategic partner who will take your business to new heights<br>Let us start our journey below:</p>
-      <h2>What challenges are you facing in your business?</h2>
+      <h2 class="other text">What challenges are you facing in your business?</h2>
       <nav>
-        <ul id="challenge-list"></ul>
+        <ul> <em id="challenge-list"> </em></ul>
       </nav>
     </header>
 
     <main>
       <div class="consultant-details">
-        <h2>You have selected the challenge:</h2>
+        <h2 class="other text">You have selected the challenge:</h2>
         <h2 id="consultant-challenge"></h2>
         <h2 id="mentor-header">Based on your challenges, your Mentor is.....(drum roll)</h2>
         <img
@@ -35,7 +35,7 @@
           ><em id="consultant-description"></em>
         </p>
 
-        <h3>How was our recommendation?</h3>
+        <h3 class="other text">How was our recommendation?</h3>
         <ul id="review-list"></ul>
         <form id="review-form">
           <label for="review"></label>
@@ -44,5 +44,8 @@
         </form>
       </div>
     </main>
+    <footer>
+      <p>&copy; 2023 Find My Mentor. All rights reserved.</p>
+    </footer>    
   </body>
 </html>
