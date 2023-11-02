@@ -13,8 +13,8 @@ body {
     float: left;
     width: 500px;
     height: auto;
-    border-right: solid #404040 1px;
-    border-bottom: solid #404040 1px;
+    border-right: solid #90e0ef 10px;
+    border-bottom: solid #404040 10px;
     border-radius: 0 0 6px 0;
     padding: 10px;
     margin-right: 10px;
@@ -44,7 +44,7 @@ body {
   }
   
   nav ul li:hover {
-    background-color: #f1a458;
+    background-color:#90e0ef;
     color: #fff;
   }
   
@@ -74,17 +74,32 @@ body {
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    background-color: #f1a458;
+    background-color:#00b4d8;
     color: #fff;
     padding: 7px 10px;
     cursor: pointer;
   }
   
   #review-list li {
-    background-color: #fff3a9;
+    background-color: #90e0ef;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
   }
   
+  #consultant-image {
+    border-right: solid #90e0ef 5px;
+    border-bottom: solid #90e0ef 5px;
+    border-left: solid #404040 5px;
+    border-top: solid #404040 5px;
+    
+  }
 
+#consultant-challenge {
+color:#003049;
+font-style: italic;
+}
+
+#welcome-header {
+  font-family: 'Agbalumo', sans-serif;
+}
